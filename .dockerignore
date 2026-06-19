@@ -1,0 +1,6 @@
+.git
+.shots
+reference
+README.md
+*.log
+.DS_Store
