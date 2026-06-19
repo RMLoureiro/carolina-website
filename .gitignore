@@ -1,0 +1,6 @@
+# screenshots de teste
+.shots/
+
+# logs e temporários
+*.log
+.DS_Store
