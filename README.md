@@ -48,17 +48,13 @@ As imagens em `assets/img/` são **placeholders** com um overlay de cor do tema.
 Para usar as suas fotos, substitua os ficheiros mantendo o nome, ou edite os `src` no HTML:
 
 - `ambient-wall.jpg` → imagem do hero (formato vertical 4:5 fica melhor).
-- O **retrato** na secção "Sobre mim" é, neste momento, um cartão com as iniciais.
-  Para colocar a sua foto, troque o bloco `.portrait__ph` por
-  `<img src="assets/img/retrato.jpg" alt="Carolina de Sousa Neves">`.
+- `retrato.jpg` → retrato da secção "Sobre mim" (recortado em 4:5, centrado no rosto).
 
 ### Contactos (já configurados)
-- Telefone: **+351 930 485 323**
-- Email: **carolinapsn06@hotmail.com**
-- WhatsApp e Instagram ligados no separador de contacto.
+- Email: **cpsnneuropsi@outlook.pt**
+- LinkedIn ligado no separador de contacto.
 
-Para alterar, procure por estes valores no `index.html` (links `tel:`, `mailto:`,
-`wa.me/351930485323` e o URL do Instagram).
+Para alterar, procure por estes valores no `index.html` (links `mailto:` e o URL do LinkedIn).
 
 ### Textos
 Os textos PT estão no `index.html`; os textos EN (e as chaves correspondentes) estão

@@ -241,12 +241,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 400; line-height: 1.12
 .hero__inner { position: relative; z-index: 1; display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(2rem, 5vw, 4rem); align-items: center; }
 .hero__title { font-size: clamp(2.4rem, 5.6vw, 4.1rem); letter-spacing: -.02em; margin-bottom: 1.4rem; }
 .hero__lead { font-size: clamp(1.05rem, 1.6vw, 1.22rem); color: var(--ink-soft); max-width: 46ch; margin-bottom: 2rem; }
-.hero__actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-bottom: 2.2rem; }
-.hero__tags { display: flex; flex-wrap: wrap; gap: .5rem; }
-.hero__tags li {
-  font-size: .82rem; color: var(--accent-deep); background: var(--surface);
-  border: 1px solid var(--line); border-radius: 100px; padding: .4rem .9rem;
-}
+.hero__actions { display: flex; flex-wrap: wrap; gap: .8rem; }
 
 .media-arch { position: relative; }
 .media-arch img {
@@ -283,16 +278,10 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 400; line-height: 1.12
 /* ---------- SOBRE ---------- */
 .sobre__grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: clamp(2rem, 6vw, 4.5rem); align-items: center; }
 .portrait { position: relative; }
-.portrait__ph {
-  aspect-ratio: 4/5; border-radius: var(--radius-lg);
-  background:
-    radial-gradient(120% 90% at 30% 20%, var(--accent-soft) 0%, transparent 60%),
-    linear-gradient(150deg, var(--surface-2), var(--panel));
-  border: 1px solid var(--line);
-  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .8rem;
+.portrait__img {
+  width: 100%; aspect-ratio: 4/5; object-fit: cover; object-position: 50% 30%;
+  border-radius: var(--radius-lg); border: 1px solid var(--line);
 }
-.portrait__mono { font-family: var(--font-serif); font-style: italic; font-size: 4rem; color: var(--accent); }
-.portrait__hint { font-size: .82rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
 .creds { display: grid; grid-template-columns: repeat(3, 1fr); gap: .6rem; margin-top: 1.2rem; }
 .creds__item { display: flex; flex-direction: column; padding: .7rem .6rem; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; text-align: center; }
 .creds__item strong { font-family: var(--font-serif); font-size: .98rem; color: var(--accent-deep); }
